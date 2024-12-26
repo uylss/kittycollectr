@@ -34,29 +34,10 @@
     padding: 2em;
   }
 
-  #card-container{
-    display: grid;
-    font-family: var(--card-font);
+  #card-container
+  {
+    aspect-ratio: 5 / 7;
     max-width: 500px;
-    max-height: 800px;
-
-  }
-  #card-content{
-    border-radius: 10px;
-    border: 5px solid var(--black);
-    padding: 10px;
-  }
-
-  .cat-name{
-    border: 2px solid var(--black);
-    align-self: c;
-  }
-
-  #card-container img{
-    border: 2px solid var(--black);
-    width: 100%;
-  }
-
-  #card-content.common-card{
-    background-color: var(--light-gray);
+    max-height: 700px;
+    border: 2px solid var(--black)
   }
